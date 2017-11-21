@@ -1,0 +1,21 @@
+package stringash;
+
+public class StringASH 
+{
+
+    public static void main(String[] args) 
+    {
+        findArea(12);       
+    }
+    public static void findArea(int r)
+    {
+      double pi = 3.1416;
+      double area = pi *r*r;
+      System.out.println(area);
+              
+         
+    
+    }
+    
+    
+}
