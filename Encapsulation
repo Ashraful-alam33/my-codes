@@ -1,0 +1,123 @@
+package pretom;
+
+public class Pretom 
+{
+
+    public static void main(String[] args) 
+    {
+        Details obb = new Details();
+        obb.getI(15);
+        System.out.println(obb.getI());
+        
+      
+        obb.getJ('a');
+        System.out.println(obb.getJ());
+        
+       
+        obb.setK(25.52);
+        System.out.println(obb.getK());
+        
+        
+        obb.setL(true);
+        System.out.println(obb.isL());
+        
+        
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package pretom;
+
+public class Details 
+
+{
+    public int age;
+    
+    private int i;
+    private char j;
+    private double k;
+    private boolean l;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public char getJ() {
+        return j;
+    }
+
+    public void setJ(char j) {
+        this.j = j;
+    }
+
+    public double getK() {
+        return k;
+    }
+
+    public void setK(double k) {
+        this.k = k;
+    }
+
+    public boolean isL() {
+        return l;
+    }
+
+    public void setL(boolean l) {
+        this.l = l;
+    }
+
+    void getI(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void getJ(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void getK(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    boolean setJ() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
+}
